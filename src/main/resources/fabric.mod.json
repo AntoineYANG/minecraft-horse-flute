@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "arnotts_horse_flute",
+	"version": "${version}",
+	"name": "Arnotts' Horse Flute",
+	"description": "Minecraft, but with the horse flute from StardewValley.",
+	"authors": [
+		"Arnotts17"
+	],
+	"contact": {
+		"sources": "https://github.com/AntoineYANG/minecraft-horse-flute"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/arnotts_horse_flute/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.arnotts17.ArnottsHorseFlute"
+		],
+		"client": [
+			"com.arnotts17.ArnottsHorseFluteClient"
+		]
+	},
+	"mixins": [
+		"ArnottsHorseFlute.mixins.json",
+		{
+			"config": "ArnottsHorseFlute.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

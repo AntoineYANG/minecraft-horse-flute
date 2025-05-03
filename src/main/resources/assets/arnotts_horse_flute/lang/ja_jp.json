@@ -1,0 +1,9 @@
+{
+  "item.arnotts_horse_flute.horse_flute": "ウマのフルート",
+  "item_group.arnotts_horse_flute": "アーノッツのウマのフルート",
+  "tooltip.not_bound": "（対象なし）",
+  "message.not_bound": "フルートを持って手懐けたウマに [使用] してウマをマーク",
+  "message.target_not_found": "誰も答えてくれなかった",
+  "message.teleported": "%sはあなたのところに駆けてきた",
+  "message.not_enough_space": "ここはちょっと狭い"
+}

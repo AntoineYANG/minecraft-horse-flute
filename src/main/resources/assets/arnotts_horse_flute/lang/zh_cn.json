@@ -1,0 +1,9 @@
+{
+  "item.arnotts_horse_flute.horse_flute": "马笛",
+  "item_group.arnotts_horse_flute": "Arnotts的马笛",
+  "tooltip.not_bound": "（未绑定）",
+  "message.not_bound": "手持马笛对着已驯服的马按下 [使用键] 以绑定马匹",
+  "message.target_not_found": "没有回应",
+  "message.teleported": "%s飞奔到了你身边",
+  "message.not_enough_space": "这里不是个合适的位置"
+}

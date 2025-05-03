@@ -1,0 +1,8 @@
+{
+  "item.arnotts_horse_flute.horse_flute": "Horse Flute",
+  "item_group.arnotts_horse_flute": "Arnotts' Horse Flute",
+  "tooltip.not_bound": " (not bound)",
+  "message.not_bound": "Pressing [use] on a tamed horse with this horse flute to bind",
+  "message.teleported": "%s answered to your call",
+  "message.not_enough_space": "Not enough space"
+}
